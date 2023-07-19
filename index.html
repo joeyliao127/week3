@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RWD</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- 用來包住body內所有的物件，沒有特別意義 -->
+    <div class="wrapper">
+      <!-- 上層top區域 -->
+      <section class="nav-container">
+        <div class="top-logo">
+          <p>My website</p>
+        </div>
+        <div class="top-items" id="top-items">
+          <p>item1</p>
+          <p>item2</p>
+          <p>item3</p>
+          <p>item4</p>
+        </div>
+        <div class="hamburger">
+          <img src="hamburger.png" alt="hamburger" />
+        </div>
+      </section>
+      <!-- 中間水藍色區域 -->
+      <section class="welcome">
+        <!-- <div class="test"></div> -->
+        <p>Welecome to My Home</p>
+      </section>
+      <!-- bottom-wrapper限制max width:1200px區域 -->
+      <!-- bottom-wrapper最小要保留10%空間 -->
+      <section class="bottom-wrapper">
+        <!-- pic-area用來放所有照片 -->
+        <!-- 上面三張圖並排區域 -->
+        <div class="pic-top-container"></div>
+        <!-- 下面12張圖並排區域 -->
+        <div class="pic-bottom-container"></div>
+      </section>
+      <button class="loadMore">Load More</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
